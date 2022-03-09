@@ -1,0 +1,11 @@
+dataset: 'fdst'
+train_json: 'train.json'
+val_json: 'val.json'
+test_json: 'test.json'
+width: 640
+height: 360
+model: 'CANNet2s'
+
+lr: 0.00005
+log_freq: 200
+val_freq: 3600

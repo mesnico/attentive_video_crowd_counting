@@ -1,0 +1,12 @@
+dataset: 'fdst'
+train_json: 'fdst_dataset/train.json'
+val_json: 'fdst_dataset/val.json'
+test_json: 'fdst_dataset/test.json'
+width: 640
+height: 360
+model: 'XACANNet2s'
+uncertainty: False
+
+lr: 0.00005
+log_freq: 200
+val_freq: 3600
