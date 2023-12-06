@@ -26,7 +26,7 @@ python train.py configs/fdst_XA.yaml --experiment [experiment_name]
 Note that `experiment_name` is used to save the model checkpoint under the `models/` path.
 
 ## Testing
-If you want to replicate the results from the paper, download the checkpoints from here: [link](https://drive.google.com/drive/folders/1fCKHm3Wdov0niuLUIs8FcjLH1vqc5Voz?usp=sharing).
+If you want to replicate the results from the paper, download the checkpoints from this [OneDrive Link](https://cnrsc-my.sharepoint.com/:f:/g/personal/nicola_messina_cnr_it/Es16NMibx35Igtiae_sUseABQpW2DbL3T5VOszjSAM153A?e=nKQriH)
 Then, issue the following command:
 ```
 python test.py [checkpoint_path.pth.tar] --config configs/fdst_XA.yaml
